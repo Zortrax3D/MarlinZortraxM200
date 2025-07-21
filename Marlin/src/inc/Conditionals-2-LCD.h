@@ -313,6 +313,7 @@
   #define HAS_WIRED_LCD 1
   #define IS_ULTIPANEL 1
   #define DOGLCD
+  #define LCD_PIXEL_WIDTH 248
 
 #endif
 
