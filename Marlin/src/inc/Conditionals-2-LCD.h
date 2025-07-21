@@ -306,6 +306,14 @@
   #define IS_RRD_SC 1
   #define U8GLIB_SSD1309
 
+#elif ENABLED(ZORTRAX_M200_OLED_PANEL)
+
+  #define U8GLIB_SSD1322_SW_SPI
+  #define U8G_SPI_USE_MODE_3 1
+  #define HAS_WIRED_LCD 1
+  #define IS_ULTIPANEL 1
+  #define DOGLCD
+
 #endif
 
 #if ANY(FYSETC_MINI_12864, MKS_MINI_12864)

@@ -215,6 +215,12 @@
   #endif
   #define U8G_PARAM (U8G_I2C_OPT_NONE | U8G_I2C_OPT_FAST)
 
+#elif ENABLED(U8GLIB_SSD1322_SW_SPI)
+
+  // SSD1322 256x64 3.12" 4bpp grayscale OLED (NHD-3.12-25664) SW SPI LCD
+
+  #define U8G_CLASS U8GLIB_NHD31OLED_GR_SW_SPI
+
 #elif TFT_SCALED_DOGLCD
 
   // Unspecified 320x240 TFT pre-initialized by built-in bootloader

@@ -416,6 +416,7 @@
 #define BOARD_MD_D301                 5068  // Mingda D2 DZ301 V1.0 (STM32F103ZE)
 #define BOARD_VOXELAB_AQUILA          5069  // Voxelab Aquila V1.0.0/V1.0.1 (GD32F103RC / N32G455RE / STM32F103RE)
 #define BOARD_SPRINGER_CONTROLLER     5070  // ORCA 3D SPRINGER Modular Controller (STM32F103VC)
+#define BOARD_ZORTRAX_M200            5071  // Zortrax M200/M300 (STM32F103VC)
 
 //
 // ARM Cortex-M4F

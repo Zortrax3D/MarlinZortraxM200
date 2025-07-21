@@ -157,3 +157,14 @@ public:
     U8GLIB::init(&u8g_dev_ssd1309_hw_spi, (uint8_t)cs, (uint8_t)a0, (uint8_t)reset);
   }
 };
+
+extern u8g_dev_t u8g_dev_ssd1322_sw_spi;
+
+class U8GLIB_NHD31OLED_GR_SW_SPI : public U8GLIB {
+public:
+  U8GLIB_NHD31OLED_GR_SW_SPI() : U8GLIB() { }
+  U8GLIB_NHD31OLED_GR_SW_SPI(pin_t sck, pin_t mosi, pin_t cs, pin_t a0, pin_t reset=U8G_PIN_NONE) { init(sck, mosi, cs, a0, reset); }
+  void init(pin_t sck, pin_t mosi, pin_t cs, pin_t a0, pin_t reset=U8G_PIN_NONE) {
+    U8GLIB::init(&u8g_dev_ssd1322_sw_spi, (uint8_t)sck, (uint8_t)mosi, (uint8_t)cs, (uint8_t)a0, (uint8_t)reset);
+  }
+};
