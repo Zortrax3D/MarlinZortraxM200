@@ -314,6 +314,9 @@
   #define IS_ULTIPANEL 1
   #define DOGLCD
   #define LCD_PIXEL_WIDTH 248
+  #define LCD_PIXEL_HEIGHT 64
+  #define LCD_WIDTH 41
+  #define LCD_HEIGHT 5
 
 #endif
 
