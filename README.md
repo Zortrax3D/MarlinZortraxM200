@@ -1,5 +1,7 @@
 
-<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Zortrax_logo.svg" height="250" alt="MarlinFirmware's logo" /></p>
+<p align="center">
+  <img src="https://forum.zortrax.com/uploads/default/original/1X/f77bb4e0909f59450f8570794cb68e2ca45f7fba.png" alt="Zortrax Logo" />
+</p>
 
 <h1 align="center">Marlin 3D Printer Firmware<br>Official Zortrax M200 & M300 Fork</h1>
 
