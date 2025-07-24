@@ -1,8 +1,5 @@
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Zortrax_logo.svg" height="100" alt="Zortrax Logo" />
-</p>
-<p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Zortrax_logo.svg" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware<br>Official Zortrax M200 & M300 Fork</h1>
 
@@ -24,13 +21,11 @@ This is the **official fork of Marlin 2.1.x for Zortrax M200 and M300 3D printer
   - [M300](https://support.zortrax.com/downloads/firmware/?printers=m300)
 - **Discussion and support:** [Zortrax Forum Thread](https://forum.zortrax.com/t/m200-m300-marlin-2-1-x-firmware-release/14264)
 
----
-
 
 ---
 
 Additional documentation can be found at the [Marlin Home Page](//marlinfw.org/).
-Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
+Please test this firmware and let us know if it misbehaves in any way. 
 
 ---
 
