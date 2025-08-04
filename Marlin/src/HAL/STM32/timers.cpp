@@ -73,6 +73,9 @@
 #elif defined(STM32F1xx)
   #define MCU_STEP_TIMER  4
   #define MCU_TEMP_TIMER  2
+#elif defined(STM32F2xx)
+  #define MCU_STEP_TIMER  6
+  #define MCU_TEMP_TIMER  7
 #elif defined(STM32F401xC) || defined(STM32F401xE)
   #define MCU_STEP_TIMER  9           // STM32F401 has no TIM6, TIM7, or TIM8
   #define MCU_TEMP_TIMER 10

@@ -684,6 +684,8 @@
   #include "stm32f1/pins_ORCA_3D_SPRINGER.h"        // STM32F1                              env:STM32F103VC_orca3d
 #elif MB(ZORTRAX_M200)
   #include "stm32f1/pins_ZORTRAX_M200.h"            // STM32F1                              env:STM32F103VC_zortrax_m200
+#elif MB(ZORTRAX_INVENTURE)
+  #include "stm32f2/pins_ZORTRAX_INVENTURE.h"       // STM32F2                              env:STM32F207ZC_zortrax_inventure
 
 //
 // ARM Cortex-M4F
