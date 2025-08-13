@@ -27,7 +27,7 @@
 
 #include "env_validate.h"
 
-#define BOARD_INFO_NAME "Zortrax M200/M300"
+#define BOARD_INFO_NAME "Zortrax Inventure"
 
 #define PC15 78
 
@@ -73,19 +73,19 @@
 //
 #define TEMP_0_PIN          PC0
 #define TEMP_1_PIN          PF8
-#define TEMP_BED_PIN        PC2
+#define TEMP_BED_PIN        PA4
 // #define TEMP_CHAMBER_PIN
 // PC1 - Chamber temperature Left
 // PC2 - Chamber temperature Right
 // PA4 - Chamber temperature Middle
 
 //
-// SD Card (SPI1)
+// SD Card (SPI3)
 //
-#define SD_SS_PIN           PA4  // SD chip select
-// #define SD_SCK_PIN          PA5
-// #define SD_MISO_PIN         PA6
-// #define SD_MOSI_PIN         PA7
+#define SD_SS_PIN           PD0  // SD chip select
+#define SD_SCK_PIN          PC10
+#define SD_MISO_PIN         PC11
+#define SD_MOSI_PIN         PC12
 // #define SD_DETECT_PIN       PB2
 
 //
