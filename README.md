@@ -32,7 +32,7 @@ Please test this firmware and let us know if it misbehaves in any way.
 
 ---
 ## Serial communication
-To connect serial user interface (Octo Print or other using Raspberry PI or UART converter and PC) you can use debug header on the motherboard. You will need to solder connector by yourself.
+To connect serial user interface (OctoPrint or other using Raspberry PI or UART converter and PC) you can use debug header on the motherboard. You will need to solder connector by yourself.
 
 Pinout of the **DEBUG** header described below:
 -	NRST
@@ -46,7 +46,7 @@ Pinout of the **DEBUG** header described below:
 
 **Set baudrate to 250000**
 
-**Caution**: if you are going to use debugger, know that any attempt to read or write from/to flash memory will result in mass erase of the flash. It will erase the the bootloader and all the settings, including lifetimer, serial number and hardware version, as flash memory of chip is read out protection enabled at production! If that happens you won't be able to use official firmware anymore!
+**Caution**: if you are going to use debugger (ST-Link), know that any attempt to read or write from/to flash memory will result in mass erase of the flash. It will erase the the bootloader and all the settings, including lifetimer, serial number and hardware version, as flash memory of chip is read out protection enabled at production! If that happens you won't be able to use official firmware anymore!
 
 ---
 
